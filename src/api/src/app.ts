@@ -26,9 +26,7 @@ const originList = ():string[]|string => {
         return "*";
     }
     
-    const origins = [
-        "https://portal.azure.com",
-        "https://ms.portal.azure.com",
+    const origins: string[] = [
     ];
 
     if (allowOrigins && allowOrigins !== "") {
